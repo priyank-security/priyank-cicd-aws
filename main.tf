@@ -1,11 +1,4 @@
-terraform {
-  backend "s3" {
-    bucket  = "project-aws-cicd-pipeline"
-    encrypt = true
-    key     = "project-aws-cicd-pipeline/terraform.tfstate"
-    region  = "us-east-1"
-  }
-}
+
 
 provider "aws" {
   region     = "us-east-1"
