@@ -1,3 +1,3 @@
-resource "aws_s3_bucket" "ppbucket-aws-codepipeline" {
-  bucket = "my-tf-test-bucket"
+resource "aws_s3_bucket" "ppbucket-aws-codebuild" {
+  bucket = "ppbucket-aws-code-pipeline"
 }
